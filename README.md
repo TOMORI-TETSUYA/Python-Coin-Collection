@@ -75,5 +75,36 @@ coin.pos = 200, 200
 **8. 画像を画面に表示** <br>
 ``draw()``関数を使用しアクターを画面に表示。<br>
 画面の背景色を変えて、スコアを表示。
+```
+def draw():
+    screen.fill("green")
+    hedgehog.draw()
+    coin.draw()
+    screen.draw.text("Score: " + str(score), color="black", topleft=(10, 10))
+```
+> [!TIP]
+> ``hedgehog.draw()``と``coin.draw()``モグラとコインを画面に表示する。<br>
+> ``screen.draw.text("Score: " + str(score), color="black", topleft=(10, 10))``スコアを画面の左上に表示。
+
+<br>
+
+**9. 試してみる** <br>
+ここまで書いたソースコードを実行。<br>
+コマンドプロント（またはターミナル）のウィンドウでコマンドラインを使用して実行。
+```
+pgzrun
+```
+
+<br>
+
+**10. 動作確認** <br>
+モグラとコインが画面に表示され、左上にはスコアも表示される。<br>
+まだプレイはできないけれど、まめに実行しバグがないかチェック。<br>
+![タイトルなし](https://github.com/user-attachments/assets/1fbdf2ea-648c-4b0e-ba4b-3c4922676bf3)
+
+<br>
+
+
+
 
 
