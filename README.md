@@ -26,7 +26,7 @@ Python-Coin-Collectionフォルダーの中に<br>
 WIDTH = 400
 HEIGHT = 400
 ```
-> [!メモ]
+> [!NOTE]
 > ゲーム画面をたてと横とも400pxに設定。
 
 <br>
