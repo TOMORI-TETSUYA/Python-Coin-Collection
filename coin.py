@@ -17,7 +17,7 @@ def draw():
     coin.draw()
     screen.draw.text("Score: " + str(score), color="black", topleft=(10, 10))
 
-def place_coin();
+def place_coin():
 
     coin.x = randint(20, (WIDTH - 20))
     
@@ -25,10 +25,16 @@ def place_coin();
 
 
 def time_up():
-    pass
+
+    global game_over
+
+    geme_over = True
 
 def update():
+    
     pass
+
+clock.schedule(time_up, 7.0)
 
 place_coin()
 
