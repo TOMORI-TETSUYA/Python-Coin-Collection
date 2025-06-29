@@ -111,7 +111,7 @@ pgzrun
 ソースコードに場所を取っておける。<br>
 後ですぐに関数を定義できるようにソースコードを入力
 ```
-def place_coin();
+def place_coin():
     pass
 
 def time_up():
@@ -142,6 +142,8 @@ from random import randint
 この関数は画面のランダムな位置にコインを置く設定。<br>
 ``pass``を削除して命令を書いていく。
 ```
+def place_coin():
+
     coin.x = randint(20, (WIDTH - 20))
     
     coin.y = randint(20, (HEIGHT - 20))
@@ -168,6 +170,28 @@ place_coin()
 <br>
 
 **15. 時間切れ！** <br>
-``time_up()``関数を定義していく。<br>
+``time_up()``関数を定義。<br>
 この関数は呼び出されるとブール関数``game_over``に<br>
-``True``をセットして、プログラムにゲームを終えるように知らせる。
+``Tuue``をセットして、プログラムにゲームを終えるように設定する。
+```
+def time_up():
+
+    global game_over
+
+    geme_over = True
+```
+
+<br>
+
+**16. タイマーをセットする** <br>
+``time_up()``の定義が終わったら、プログラムで呼び出すように設定。<br>
+ただしゲーム開始から７秒後に呼び出す必要がある。<br>
+Pygame Zero用意してある``clock``というツールを利用する。<br>
+ツールは決めておいた時間がたってから関数を呼び出すためのもの。
+```
+clock.schedule(time_up, 7.0)
+
+```
+
+<br>
+
