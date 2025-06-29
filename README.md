@@ -129,3 +129,8 @@ def update():
 最初の関数はビルドイン関数``randint()``を利用する。<br>
 ``randint()``をプログラムに組み入れる。<br>
 場所はソースコードの先頭に入力。
+```
+from random import randint
+```
+
+
