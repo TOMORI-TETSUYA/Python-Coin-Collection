@@ -57,4 +57,15 @@ game_over = False
 このゲームにはアクターが2つでてくる。<br>
 モグラ（hedgehog）とコイン（coin）。<br>
 この2つのアクターを作ってからステージの位置を決める。
+```
+hedgehog = Actor("hedgehog")
+hedgehog.pos = 100, 100
 
+coin = Actor("coin")
+coin.pos = 200, 200
+```
+> [!NOTE]
+> ``hedgehog = Actor("hedgehog")``imagesフォルダーのhedgehog.pngを
+> 使ってモグラのアクターを作成。
+> ``coin = Actor("coin")``コインの位置は画面左上から右に
+> 200px、下に200pxの設定。
