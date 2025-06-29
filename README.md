@@ -44,3 +44,14 @@ score = 0
 
 <br>
 
+**6. ゲームオーバー？** <br>
+真理値（``True``か``False``のどちらかになる）が代入される<br>
+ブール変数（論理変数とも呼ぶ）を使用し<br>
+**Pygame Zero**にゲームが終わったかどうかを教える。<br>
+今は``False``をセットする。
+```
+WIDTH = 400
+HEIGHT = 400
+score = 0
+game_over = False
+```
