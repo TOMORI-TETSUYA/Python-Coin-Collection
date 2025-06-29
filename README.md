@@ -12,3 +12,8 @@ Python-Coin-Collectionフォルダーの中に<br>
 新しく``images``を作成しimagesフォルダーはCoin.pyと<br>
 同じフォルダーに保存する。<br>
 ![スクリーンショット 2025-06-29 092033](https://github.com/user-attachments/assets/647a1c2e-d368-4b59-a70f-c4ff2cee2c27)
+
+<br>
+
+**3. 画像をフォルダー入れる**
+
