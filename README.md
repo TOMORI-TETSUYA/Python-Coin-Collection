@@ -35,8 +35,8 @@ HEIGHT = 400
 ゲームの開始時にスコアを0にセットするようにする。<br>
 変数``score``を設定する。
 ```
-WIDTH = 400
-HEIGHT = 400
+# WIDTH = 400
+# HEIGHT = 400
 score = 0
 ```
 > [!NOTE]
@@ -50,8 +50,8 @@ score = 0
 **Pygame Zero**にゲームが終わったかどうかを教える。<br>
 今は``False``をセットする。
 ```
-WIDTH = 400
-HEIGHT = 400
-score = 0
+# WIDTH = 400
+# HEIGHT = 400
+# score = 0
 game_over = False
 ```
