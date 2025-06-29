@@ -142,5 +142,7 @@ from random import randint
 この関数は画面のランダムな位置にコインを置く設定。<br>
 ``pass``を削除して命令を書いていく。
 ```
-
+    coin.x = randint(20, (WIDTH - 20))
+    
+    coin.y = randint(20, (HEIGHT - 20))
 ```
