@@ -3,7 +3,7 @@
 **1. セットアップ** <br>
 ``Python-Coin-Collection``というフォルダー新規に作成する。<br>
 IDELEを開いて**File**メニューから**NewFile**を選びからのファイルを作成し<br>
-同じメニューから**Save As**を選んで、ファイル名を**Coin.py**という名前で<br>
+同じメニューから**Save As**を選んで、ファイル名を``coin.py``という名前で<br>
 **Python-Coin-Collection**のフォルダーにセーブ。<br>
 
 **2. 画像用フォルダを作成する** <br>
