@@ -65,7 +65,7 @@ coin = Actor("coin")
 coin.pos = 200, 200
 ```
 > [!NOTE]
-> ``hedgehog = Actor("hedgehog")``imagesフォルダーのhedgehog.pngを
-> 使ってモグラのアクターを作成。
-> ``coin = Actor("coin")``コインの位置は画面左上から右に
+> ``hedgehog = Actor("hedgehog")``imagesフォルダーのhedgehog.pngを<br>
+> 使ってモグラのアクターを作成。<br>
+> ``coin = Actor("coin")``コインの位置は画面左上から右に<br>
 > 200px、下に200pxの設定。
