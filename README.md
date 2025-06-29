@@ -1,6 +1,14 @@
 # Python-Coin-Collection
 
-**1. 画像用フォルダを作成する** <br>
-このゲームはモグラとCoinの画像を使用
-Python-Coin-Collectionフォルダーの中に
-新しく``images``
+**1. セットアップ** <br>
+``Python-Coin-Collection``というフォルダー新規に作成する。<br>
+IDELEを開いて**File**メニューから**NewFile**を選びからのファイルを作成し<br>
+同じメニューから**Save As**を選んで、ファイル名を**Coin.py**という名前で<br>
+**Python-Coin-Collection**のフォルダーにセーブ。<br>
+
+**2. 画像用フォルダを作成する** <br>
+このゲームはモグラとCoinの画像を使用<br>
+Python-Coin-Collectionフォルダーの中に<br>
+新しく``images``を作成しimagesフォルダーはCoin.pyと<br>
+同じフォルダーに保存する。<br>
+![スクリーンショット 2025-06-29 092033](https://github.com/user-attachments/assets/647a1c2e-d368-4b59-a70f-c4ff2cee2c27)
