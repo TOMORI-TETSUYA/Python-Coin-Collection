@@ -181,6 +181,9 @@ def time_up():
     geme_over = True
 ```
 
+> [!NOTE]
+> キーワードの**pass**を削除し新しい行は**pass**を取り去ってから入力。
+
 <br>
 
 **16. タイマーをセットする** <br>
@@ -191,6 +194,9 @@ Pygame Zero用意してある``clock``というツールを利用する。<br>
 ```
 clock.schedule(time_up, 7.0)
 ```
+
+> [!NOTE]
+> 関数``time_up()``をゲーム開始から7秒後に呼び出す。
 
 <br>
 
