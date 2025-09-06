@@ -107,7 +107,7 @@ pgzrun
 1. コマンドプロント/PowerShell(どちらかを実行)<br>
 2. コマンド
 ```
- pgzrun coin.py`
+ pgzrun ディレクトリ\coin.py
 ```
 ![タイトルなし](https://github.com/user-attachments/assets/1fa3ae4e-39ff-4a3d-ba11-078917d99228)
 <br>
@@ -255,5 +255,39 @@ clock.schedule(time_up, 7.0)
 > どの``elif(else-if)``で分岐するかは、<br>
 > どの矢印キーが押されたかで決まる。<br>
 
+**20. コインを集める** <br>
+最後にキャラクターがコインにタッチしたときに<br>
+スコアを変えるためのソースコードを書いておきます。<br>
+``update()``関数に書き加えます。<br>
 
+```
+    global score
+```
+関数を定義しているソースコードの最初に書きます。
 
+```
+    coin_collected = hedgehog.colliderect(coin)
+```
+キャラクターがコインにタッチしたらこの変数がTrueになります。
+
+```
+    if coin_collected:
+
+        score = score +10
+
+        place_coin()
+```
+
+ここでスコアに10を足しています。
+
+**21. ゲーム完成** <br>
+ゲームをプレイしてゲームオーバーまで何枚のコインを集められるか<br>
+挑戦してみましょう。<br>
+<br>
+プレイ方法ファイルをDLして****
+1. コマンドプロント/PowerShell(どちらかを実行)<br>
+2. コマンド
+```
+ pgzrun ディレクトリ\coin.py
+```
+**※Pygame Zeroがインストールされている環境**
