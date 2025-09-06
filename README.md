@@ -186,7 +186,7 @@ def time_up():
 
     global game_over
 
-    geme_over = True
+    game_over = True
 ```
 
 > [!NOTE]
@@ -254,5 +254,6 @@ clock.schedule(time_up, 7.0)
 > [!NOTE]
 > どの``elif(else-if)``で分岐するかは、<br>
 > どの矢印キーが押されたかで決まる。<br>
+
 
 
