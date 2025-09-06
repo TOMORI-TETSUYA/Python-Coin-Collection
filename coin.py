@@ -32,9 +32,11 @@ def time_up():
 
     global game_over
 
-    geme_over = True
+    game_over = True
 
 def update():
+
+    global score
     
     if keyboard.left:
         hedgehog.x = hedgehog.x - 2
@@ -47,8 +49,16 @@ def update():
 
     elif keyboard.down:
         hedgehog.y = hedgehog.y + 2
-        
 
+    coin_collected = hedgehog.colliderect(coin)
+
+    if coin_collected:
+
+        score = score +10
+
+        place_coin()
+
+    
 clock.schedule(time_up, 7.0)
 
 place_coin()
