@@ -36,7 +36,8 @@ def time_up():
 
 def update():
     
-    pass
+    if keyboard.left:
+        hedgehog.x = hedgehog.x - 2
 
 clock.schedule(time_up, 7.0)
 
