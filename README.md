@@ -11,7 +11,8 @@ IDELEを開いて**File**メニューから**NewFile**を選びからのファ�
 Python-Coin-Collectionフォルダーの中に<br>
 新しく``images``を作成しimagesフォルダーはCoin.pyと<br>
 同じフォルダーに保存する。<br>
-<img width="857" height="507" alt="タイトルなし" src="https://github.com/user-attachments/assets/72f93c03-6cb6-4403-93a4-f7b5d5199de5" />
+![タイトルなし](https://github.com/user-attachments/assets/d51bce33-e915-4340-a28e-f117e39332b9)
+
 
 
 
@@ -219,6 +220,7 @@ clock.schedule(time_up, 7.0)
 > 変数**game_over**がTrueなら画面の背景色をピンクに設定<br>
 > ``str(score)``最終スコアを画面に表示する。<br>
 > ``fontsize=60``この命令は画面に表示する文字の大きさを決めている。<br>
+
 
 
 
