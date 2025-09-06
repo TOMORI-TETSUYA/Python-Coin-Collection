@@ -101,7 +101,12 @@ pgzrun
 **10. 動作確認** <br>
 モグラとコインが画面に表示され、左上にはスコアも表示される。<br>
 まだプレイはできないけれど、まめに実行しバグがないかチェック。<br>
-![タイトルなし](https://github.com/user-attachments/assets/1fbdf2ea-648c-4b0e-ba4b-3c4922676bf3)
+**実行方法**
+1. コマンドプロント/PowerShell(どちらかを実行)<br>
+2. コマンド
+```
+ pgzrun coin.py`
+```
 
 <br>
 
@@ -213,5 +218,6 @@ clock.schedule(time_up, 7.0)
 > 変数**game_over**がTrueなら画面の背景色をピンクに設定<br>
 > ``str(score)``最終スコアを画面に表示する。<br>
 > ``fontsize=60``この命令は画面に表示する文字の大きさを決めている。<br>
+
 
 
