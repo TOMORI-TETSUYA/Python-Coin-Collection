@@ -39,6 +39,16 @@ def update():
     if keyboard.left:
         hedgehog.x = hedgehog.x - 2
 
+    elif keyboard.right:
+        hedgehog.x = hedgehog.x + 2
+        
+    elif keyboard.up:
+        hedgehog.y = hedgehog.y - 2
+
+    elif keyboard.down:
+        hedgehog.y = hedgehog.y + 2
+        
+
 clock.schedule(time_up, 7.0)
 
 place_coin()
