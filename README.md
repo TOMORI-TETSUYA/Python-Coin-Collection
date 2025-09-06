@@ -186,7 +186,7 @@ def time_up():
 
     global game_over
 
-    geme_over = True
+    game_over = True
 ```
 
 > [!NOTE]
@@ -238,3 +238,22 @@ clock.schedule(time_up, 7.0)
 > 左に2ピクセル動きます。
 
 <br>
+
+**19. 上下左右に動かす** <br>
+ソースコードをテストし、キャラクターを動かし他の方向にも動くように設定。<br>
+```
+    elif keyboard.right:
+        hedgehog.x = hedgehog.x + 2
+        
+    elif keyboard.up:
+        hedgehog.y = hedgehog.y - 2
+
+    elif keyboard.down:
+        hedgehog.y = hedgehog.y + 2
+```
+> [!NOTE]
+> どの``elif(else-if)``で分岐するかは、<br>
+> どの矢印キーが押されたかで決まる。<br>
+
+
+
