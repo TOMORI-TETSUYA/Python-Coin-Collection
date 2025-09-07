@@ -1,4 +1,4 @@
-# Python Coin Collection
+# コイン・コレクション
 
 ## 事前準備
 
@@ -313,6 +313,7 @@ clock.schedule(time_up, 7.0)
  pgzrun ディレクトリ\coin.py
 ```
 **※Pygame Zeroがインストールされている環境**
+
 
 
 
