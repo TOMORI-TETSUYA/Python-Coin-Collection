@@ -1,4 +1,4 @@
-# Python-Coin-Collection
+# Python Coin Collection
 
 **1. セットアップ** <br>
 ``Python-Coin-Collection``というフォルダー新規に作成する。<br>
@@ -291,4 +291,5 @@ clock.schedule(time_up, 7.0)
  pgzrun ディレクトリ\coin.py
 ```
 **※Pygame Zeroがインストールされている環境**
+
 
