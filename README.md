@@ -1,5 +1,27 @@
 # Python Coin Collection
 
+## 事前準備
+
+Pygame Zeroのインストール(Windows環境)<br>
+
+1. コマンドプロンプトを開く<br>
+2. パッケージマネージャーをインストールする<br>
+```
+python -m pip install -U pip
+```
+4. pygameのインストール<br>
+   パッケージマネージャーをインストールしたら下記の<br>
+   命令文を入力しENTERキーを押すこれでPygameがインストールされます。<br>
+   ```
+   pip install pygame
+   ```
+5. Pygame Zeroのインストール<br>
+   最後に下記の命令文を入力しENTERキーを押す。<br>
+   これでPygame Zeroがインストールされる。<br>
+   ```
+   pip install pgzero
+   ```
+
 **1. セットアップ** <br>
 ``Python-Coin-Collection``というフォルダー新規に作成する。<br>
 IDELEを開いて**File**メニューから**NewFile**を選びからのファイルを作成し<br>
@@ -291,5 +313,6 @@ clock.schedule(time_up, 7.0)
  pgzrun ディレクトリ\coin.py
 ```
 **※Pygame Zeroがインストールされている環境**
+
 
 
